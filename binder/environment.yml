@@ -35,9 +35,9 @@ dependencies:
 - xwidgets
 - xframe
 # R Kernel
-- r-base=4.1.0
-- r-ggplot2
-- r-irkernel
+#- r-base=4.1.0
+#- r-ggplot2
+#- r-irkernel
 # mlpack
 #- c-compiler
 #- cxx-compiler
@@ -51,7 +51,7 @@ dependencies:
 - cython
 - numpy
 - pandas
-- gxx_linux-64
+#- gxx_linux-64
 - mlpack
 - ensmallen
 # SoS
