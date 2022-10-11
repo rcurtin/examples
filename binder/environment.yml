@@ -51,9 +51,9 @@ dependencies:
 - cython
 - numpy
 - pandas
-#- gxx_linux-64
-#- mlpack
-#- ensmallen
+- gxx_linux-64=9.3.0
+- mlpack
+- ensmallen
 # SoS
 - sos-notebook
 - jupyterlab-sos
