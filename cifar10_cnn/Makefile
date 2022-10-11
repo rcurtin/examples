@@ -5,7 +5,7 @@ SRC1 := cifar_eval.cpp
 LIBS_NAME := armadillo
 
 CXX := g++
-CXXFLAGS := -std=c++14 -Wall -g -rdynamic -Wextra -O3 -DNDEBUG -fopenmp
+CXXFLAGS := -std=c++14 -Wall -g -rdynamic -Wextra -O3 -DNDEBUG -fopenmp -I/home/ryan/src/mlpack/src/ -I/home/ryan/src/mlpack/build/deps/ensmallen-2.19.0/include
 
 LDFLAGS := -fopenmp
 

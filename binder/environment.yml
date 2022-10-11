@@ -39,8 +39,8 @@ dependencies:
 - r-ggplot2
 - r-irkernel
 # mlpack
-- c-compiler
-- cxx-compiler
+#- c-compiler
+#- cxx-compiler
 - armadillo=9
 - cereal
 - cmake
