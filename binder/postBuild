@@ -14,7 +14,7 @@ jupyter kernelspec remove -f xcpp17
 # Set up mlpack sources.
 git clone https://github.com/mlpack/mlpack
 cd mlpack
-cp src/* /srv/conda/envs/notebook/include/
+cp -r src/* /srv/conda/envs/notebook/include/
 
 # Also install stb.
 wget mlpack.org/files/stb.tar.gz
