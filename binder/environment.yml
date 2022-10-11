@@ -30,7 +30,7 @@ dependencies:
 - plotly
 - imbalanced-learn=0.8.0
 # C++ Kernel
-#- xeus-cling
+- xeus-cling
 - xtensor
 - xwidgets
 - xframe
