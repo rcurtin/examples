@@ -30,7 +30,7 @@ dependencies:
 - plotly
 - imbalanced-learn=0.8.0
 # C++ Kernel
-- xeus-cling
+#- xeus-cling
 - xtensor
 - xwidgets
 - xframe
@@ -41,19 +41,19 @@ dependencies:
 # mlpack
 #- c-compiler
 #- cxx-compiler
-- armadillo=9
-- cereal
-- cmake
-- boost-cpp
-- openblas
-- openmp
+#- armadillo=9
+#- cereal
+#- cmake
+#- boost-cpp
+#- openblas
+#- openmp
 - setuptools
 - cython
 - numpy
 - pandas
 #- gxx_linux-64
-- mlpack
-- ensmallen
+#- mlpack
+#- ensmallen
 # SoS
 - sos-notebook
 - jupyterlab-sos
